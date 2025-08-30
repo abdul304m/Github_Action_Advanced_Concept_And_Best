@@ -1,0 +1,23 @@
+{
+  "name": "Github_Action_Advanced_Concept_And_Best",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdul304m/Github_Action_Advanced_Concept_And_Best.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdul304m/Github_Action_Advanced_Concept_And_Best/issues"
+  },
+  "homepage": "https://github.com/abdul304m/Github_Action_Advanced_Concept_And_Best#readme",
+  "devDependencies": {
+    "eslint": "^9.34.0"
+  }
+}
