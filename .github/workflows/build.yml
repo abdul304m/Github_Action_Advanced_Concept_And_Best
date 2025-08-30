@@ -33,6 +33,8 @@ jobs:
       - name: Run Tests
         run: npm test
 
-  # 👇 Add this part
       - name: Use Secret Safely
-        run: echo "Using token: ${{ secrets.ACCESS_TOKEN }}"
+        run: echo "Using secret: $ACCESS_TOKEN"
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
