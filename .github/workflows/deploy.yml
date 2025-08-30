@@ -1,0 +1,17 @@
+name: Deploy
+
+on:
+  workflow_dispatch: # run manually from the Actions tab
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build (placeholder)
+        run: echo "Build your production bundle here"
+
+      - name: Deploy (placeholder)
+        run: echo "Deploy to your host here"
